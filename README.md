@@ -17,9 +17,11 @@ You get the latest PowerShell modules from the PowerShell Gallery:
 
 Use the following commands to install the PowerShell modules in an environment (as Administrator) or for your current user with the command as here:
 
-- Install-Module -Name MicrosoftTeams -Force -AllowClobber -scope CurrentUser
-- Install-Module -Name AzureADPreview -Force -AllowClobber -scope CurrentUser
-- Update-Module -Name AzureADPreview -Force  -AllowClobber
+~~~~powershell
+Install-Module -Name MicrosoftTeams -Force -AllowClobber -scope CurrentUser
+Install-Module -Name AzureADPreview -Force -AllowClobber -scope CurrentUser
+# Update-Module -Name AzureADPreview -Force  -AllowClobber
+~~~~
 
 ## Run the scripts anywhere
 
