@@ -31,8 +31,7 @@ The scripts show demos how to manage  Office 365 Groups and Microsoft Teams in a
 
 ## Cross-Reference
 
-- You can find a corresponding presentation at [SpeakerDeck.com - Office 365 Groups and Microsoft Teams PowerShell MasterClass (SPC19, BRK078)](https://speakerdeck.com/atwork/office-365-groups-and-microsoft-teams-powershell-masterclass-spc19-brk078)
-- To see the open-source Groups Governance Toolkit from [atwork-it.com](https://www.atwork-it.com/), see https://governancetoolkit365.com/) 
+- To see the open-source Groups Governance Toolkit by [atwork-it.com](https://www.atwork-it.com/), see https://github.com/martinagrom/Ignite2018GroupsGovernanceToolkit) 
 - If you are interested in a **ready-to-use Governance Overview solution** visualized with Power-BI, check out [governancetoolkit365.com](https://governancetoolkit365.com/). You can register for a free trial.
 
 ## For developers
