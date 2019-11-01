@@ -3,7 +3,7 @@
 Demos by [atwork-it.com](https://www.atwork-it.com/).
 Contributors: [Martina Grom](https://twitter.com/magrom), [Toni Pohl](https://twitter.com/atwork)
 
-Management of Office 365 and Microsoft Teams can be done in a lot of ways. The following scripts show essential PowerShell scripts you need to manage your Office 365 Groups and Microsoft Teams at scale. You must be a **Global Administrator in the Microsoft 365 tenant** to run all scripts. Use and adapt the scripts as required.
+Management of Office 365 and Microsoft Teams can be done in a lot of ways. The following scripts show essential PowerShell scripts you need to manage your Office 365 Groups and Microsoft Teams at scale. You must be a **Global Administrator in the Microsoft 365 tenant** to run all scripts. These are the updated scripts of November 2019. Use and adapt the scripts as required.
 
 ## Required PowerShell modules
 
