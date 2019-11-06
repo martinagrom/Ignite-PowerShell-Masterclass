@@ -27,7 +27,7 @@ Add-UnifiedGroupLinks $group -LinkType Owner -Links MiriamG@M365x251516.OnMicros
 # Get all groups or a specific group
 Get-AzureADGroup | ? {$_.DisplayName -eq $group}
 
-$groupid = '629af0a9-59c3-4d3e-8b87-cf70a41b53f3'
+$groupid = 'ff4006fa-199b-4e01-92f5-4d93c413dcf2'
 Get-TeamUser -GroupId $groupid
 
 # Remove user: This might take some minutes...

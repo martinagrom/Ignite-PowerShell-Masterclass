@@ -8,16 +8,13 @@
 # Get a list of all teams
 Get-Team | ? {$_.DisplayName -like 'My*'}
 
-# Create a new-Team: Takes about 1-2 minutes
-New-Team -DisplayName "My Ignite Demo 1" -Description 'My Ignite Demo 1' -Visibility Private
-New-Team -DisplayName "My Monday Project" -Description 'My Monday Project' -Visibility Private
-New-Team -DisplayName "My Tuesday Project" -Description 'My Tuesday Project' -Visibility Private
-New-Team -DisplayName "My Wednesday Project" -Description 'My Wednesday Project' -Visibility Private
+# Create a new-Team: might take 1-2 minutes
+# New-Team -DisplayName "My Wednesday Project" -Description 'My Wednesday Project' -Visibility Private
 New-Team -DisplayName "My Thursday Project" -Description 'My Thursday Project' -Visibility Private
 New-Team -DisplayName "My Friday Project" -Description 'My Friday Project' -Visibility Private
 
 # Select one group we want to work with...
-$group = 'dcab96cc-ed29-40a5-a059-041c4d6ec648'
+$group = '583616b9-3191-439a-91fb-27add35dc0eb'
 
 # See all channels of that group: 'Ignite'
 Get-TeamChannel -GroupId $group
@@ -44,7 +41,7 @@ Set-Team -GroupId $group -DisplayName 'My Wednesday Ignite team' `
         -Visibility Private `
         -Classification 'Highly Confidential' `
         -Description 'My Wednesday Ignite team description' `
-        -MailNickname 'myigniteteamdemo11'
+        -MailNickname 'myigniteteamwednesday1'
 
 # Note: Get-TeamGuestSettings and Set-TeamFunSettings are deprecated with 1.0 PowerShell release, and are no longer supported.
 # Use Get-Team and Set-Team instead.

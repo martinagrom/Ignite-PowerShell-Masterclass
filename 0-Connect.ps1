@@ -37,7 +37,7 @@ Write-Output "ready for Exchange Online!"
 $sessioncompliance = New-PSSession -ConfigurationName Microsoft.Exchange `
     -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ `
     -Credential $cred -Authentication Basic -AllowRedirection
-Import-PSSession $sessioncompliance -DisableNameChecking
+Import-PSSession $sessioncompliance -DisableNameChecking -Prefix "CC"
 Write-Output "ready for Security & Compliance!"
 
 # Remove-PSSession $session 

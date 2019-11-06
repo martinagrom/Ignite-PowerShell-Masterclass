@@ -4,10 +4,10 @@
 # https://docs.microsoft.com/en-us/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps
 #---------------------------------------------------------------------------------------
 
-# Show the labels
-Get-Label | ft
+# Show the labels (with prefix)
+Get-CCLabel | ft
 
-Get-Label | fl
+Get-CCLabel | fl
 
 # Set a new label policy
 # Set-LabelPolicy -Identity <PolicyName> -AdvancedSettings @{Key=ConvertTo-Json("value1", "value2")}

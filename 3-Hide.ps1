@@ -6,19 +6,20 @@
 Get-UnifiedGroup
 
 # Hide a specific group from Outlook with EXO PS
-$groupid = '9265dc8f-2477-43b7-848b-2c13b2d91d06'
+$groupid = '583616b9-3191-439a-91fb-27add35dc0eb'
 
 # HiddenFromAddressListsEnabled: Does the group appear in the global address list (GAL) and other address lists in your organization.
-Set-UnifiedGroup -Identity $groupid -HiddenFromAddressListsEnabled $true
+Set-UnifiedGroup -Identity $groupid -HiddenFromAddressListsEnabled $false
 
 # HiddenFromExchangeClientsEnabled: Is the group hidden from Outlook clients connected to Office 365.
 # The group isn't visible in the Outlook left-hand navigation and isn't be visible in the global address list (GAL).
 # The group name won't resolve during the creation a new message in Outlook.
-Set-UnifiedGroup -Identity $groupid -HiddenFromExchangeClientsEnabled:$true
+Set-UnifiedGroup -Identity $groupid -HiddenFromExchangeClientsEnabled:$false
 
 # Hide multiple groups
 $groups = Get-UnifiedGroup -ResultSize Unlimited | ? {$_.DisplayName -like "My*"}
 $groups
 Foreach ($Group in $Groups) { 
-    Set-UnifiedGroup $Group.Guid -HiddenFromAddressListsEnabled $true
+    Set-UnifiedGroup -Identity $Group.Guid -HiddenFromAddressListsEnabled $false
+    Set-UnifiedGroup -Identity $Group.Guid -HiddenFromExchangeClientsEnabled:$false
 }

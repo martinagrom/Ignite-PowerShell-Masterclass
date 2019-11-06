@@ -15,13 +15,14 @@ Write-Output "Pwd : $($cred.Password)"
 # Connect to the Teams module
 Connect-MicrosoftTeams -Credential $cred
 
+# Get a list of teams
 $teams = Get-Team
 
-#$team = New-Team -DisplayName $name -Description $description -AccessType "Private" -AddCreatorAsMember $true  
-#add some channels
-#New-TeamChannel -GroupId $team.GroupId -DisplayName "Projektmanagement"
-#New-TeamChannel -GroupId $team.GroupId -DisplayName "Teilprojekt 1"
-#New-TeamChannel -GroupId $team.GroupId -DisplayName "Teilprojekt 2"
+# Create a new team
+# $team = New-Team -DisplayName $name -Description $description -AccessType "Private" -AddCreatorAsMember $true  
+# Add some channels
+#New-TeamChannel -GroupId $team.GroupId -DisplayName "Project A"
+#New-TeamChannel -GroupId $team.GroupId -DisplayName "Project B"
 
 Write-Output $teams
 

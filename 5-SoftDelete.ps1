@@ -4,10 +4,10 @@
 #---------------------------------------------------------------------------------------
 
 # Get all groups or a specific group
-Get-AzureADGroup | ? {$_.DisplayName -eq 'My Ignite team'}
+Get-AzureADGroup | ? {$_.DisplayName -like 'My*'}
 
 # Soft Delete a specific group
-$ToDelete = "629af0a9-59c3-4d3e-8b87-cf70a41b53f3"
+$ToDelete = "ff4006fa-199b-4e01-92f5-4d93c413dcf2"
 Remove-AzureADGroup -ObjectId $ToDelete 
 
 # Show all Soft Deleted Groups in descending order
