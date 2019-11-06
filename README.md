@@ -7,11 +7,12 @@ Management of Office 365 and Microsoft Teams can be done in a lot of ways. The f
 
 ## Required PowerShell modules
 
-You get the latest PowerShell modules from the PowerShell Gallery:
+You get the latest PowerShell modules from the PowerShell Gallery or remotely:
 
 - [AzureADPreview](https://www.powershellgallery.com/packages/AzureADPreview/)
 - [MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams/)
 - Remote Exchange PowerShell (Microsoft.Exchange) - see the connect script
+- [Office 365 Security & Compliance Center PowerShell](https://docs.microsoft.com/en-us/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
 
 ## Install the modules
 
