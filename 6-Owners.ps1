@@ -35,3 +35,4 @@ Remove-TeamUser -GroupId $groupid -User MiriamG@M365x251516.OnMicrosoft.com
 
 # Check the result
 Get-TeamUser -GroupId $groupid
+

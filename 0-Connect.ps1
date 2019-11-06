@@ -47,6 +47,8 @@ Write-Output "ready for Security & Compliance!"
 
 
 
+
+
 <#
 Remarks for using the same credetials for multiple modules:
 https://github.com/Azure/azure-docs-powershell-azuread/issues/169
@@ -61,5 +63,3 @@ Connect-AzureAD -Credential $cred
 # $cred should still have a password
 $cred.Password.Length
 #>
-
-

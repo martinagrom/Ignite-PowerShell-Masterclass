@@ -13,7 +13,9 @@ You get the latest PowerShell modules from the PowerShell Gallery or remotely:
 - [MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams/)
 - Remote Exchange PowerShell (Microsoft.Exchange) - see the connect script
 - [Office 365 Security & Compliance Center PowerShell](https://docs.microsoft.com/en-us/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
-
+- Exchange PowerShell v2 modules (coming)
+- Graph PowerShell (coming)
+ 
 ## Install the modules
 
 Use the following commands to install the PowerShell modules in an environment (as Administrator) or for your current user with the command as here:

@@ -12,3 +12,4 @@ Write-Output "The value of 'SomeText1' is '$($SomeText1)'."
 # encrypted
 $SomeText2 = Get-AutomationVariable -Name "SomeText2"
 Write-Output "The value of 'SomeText2' is '$($SomeText2)'."
+

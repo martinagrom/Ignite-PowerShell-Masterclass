@@ -38,3 +38,4 @@ Reset-AzureADMSLifeCycleGroup -GroupId $group
 # Adds a group to a lifecycle policy - only if ManagedGroupTypes is 'Selected'.
 Add-AzureADMSLifecyclePolicyGroup -Id $LifetimeID -GroupId $group
 #------------------------------------------------------------
+

@@ -23,3 +23,4 @@ Foreach ($Group in $Groups) {
     Set-UnifiedGroup -Identity $Group.Guid -HiddenFromAddressListsEnabled $false
     Set-UnifiedGroup -Identity $Group.Guid -HiddenFromExchangeClientsEnabled:$false
 }
+

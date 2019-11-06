@@ -22,3 +22,4 @@ Get-AzureADGroup | ? {$_.DisplayName -eq 'My Ignite team'}
 
 # Hard Delete a Group
 Remove-AzureADMSDeletedDirectoryObject -Id $ToDelete
+

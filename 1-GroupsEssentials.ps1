@@ -17,3 +17,5 @@ Get-UnifiedGroup | Select Id, DisplayName, ManagedBy, Alias, AccessType, `
 Get-UnifiedGroup | Where-Object {$_.AccessType -eq 'Private'} | `
     Sort-Object whencreated | Format-Table displayname, alias, `
     managedby, accesstype, whencreated
+
+    

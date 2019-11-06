@@ -19,3 +19,4 @@ $storageContext = New-AzureStorageContext -StorageAccountName $storage -StorageA
 Set-AzureStorageBlobContent -File $logfile -Container "myfiles" -BlobType "Block" -Context $storageContext -Verbose
 
 Write-Output "Created $($logfile)."
+
